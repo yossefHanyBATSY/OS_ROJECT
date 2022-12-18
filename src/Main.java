@@ -1,15 +1,3 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
-
-//package Fcis.details;
-
-/*import Fcis.details.GUI.Frame;
-import Fcis.details.GUI.GUI;
-import Fcis.details.Work.Job;
-import Fcis.details.Work.Philosopher;*/
-
 public class Main {
     private GUI gui = new Frame(this);
     private Job job = new Job(this);
