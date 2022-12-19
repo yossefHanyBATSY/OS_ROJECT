@@ -134,11 +134,11 @@ public class Frame extends JFrame implements GUI, ActionListener {
 
     }
 
-    private void preparerLegende(JPanel panLegende, String texte, Color couleur) {
+    private void preparerLegende(JPanel panLegende, String texte, Color color) {
         JPanel carre = new JPanel();
         JLabel label = new JLabel(texte + "  ");
-        carre.setBackground(couleur);
-        label.setForeground(couleur);
+        carre.setBackground(color);
+        label.setForeground(color);
         panLegende.add(carre);
         panLegende.add(label);
     }
